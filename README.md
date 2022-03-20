@@ -1,5 +1,5 @@
 # Arabic-dialects-classification
-> Predict the Arabic dialect of a given tweet using machine learning and deepl learning models through a REST API
+> Predict the Arabic dialect of a given tweet using machine learning and deep learning models through a REST API
 ## Table of contents:
 * [Dataset](#Dataset)
 * [Machine learning model](#Machine-learning-model)
@@ -9,7 +9,7 @@
 
 
 ## Dataset:
-- given a dialect_dataset.csv file containing (id-dialect) columns, The “id” column is used to retrieve the tweets, to do that, I call this API  https://recruitment.aimtechnologies.co/ai-tasks by a POST request in dataFetching.py
+- given a dialect_dataset.csv file containing (id-dialect) columns, The “id” column is used to retrieve the tweets, to do that, I call this API  https://recruitment.aimtechnologies.co/ai-tasks by a POST request in data fetching.ipynb
 - save new dataset with tweets in arabic_tweets.csv
 - finally save clean dataset in 'clean_data.csv' file
 
